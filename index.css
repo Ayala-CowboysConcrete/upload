@@ -1,0 +1,160 @@
+main {
+    width: 100%;
+    height: (100vh - 60px);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+
+main  .main-intro h2{
+margin-left: 300px;
+margin-top: 425px;
+}
+
+
+.header-img1 img {
+    height: 40px;
+    align-self: center;
+    margin-top: 30px;
+    margin-left: 975px;
+}
+
+main  .main-intro p{
+    margin-left: 300px;
+    }
+
+.main-intro-mobile{
+    display: none;
+}
+
+button {
+    margin-left: 60%;
+    margin-top: -100%;
+}
+
+    
+.header-button {
+    cursor: pointer;
+}
+
+
+.img-container{
+    width: 50vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 52.5%;
+    left: 80%;
+    overflow: hidden;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    box-shadow: 10px 25px 30px rgba(15, 15, 16, 0.3);
+
+}
+
+.img-wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+.img-container img{
+width: 100%;
+}
+
+.more-images p{
+     align-self: center;
+    margin-left: 1410px;
+    margin-top: 200px;
+   font-weight: 200;
+}
+
+
+
+/* mobile version */
+
+@media only screen and (max-width:430px){
+main{
+    align-items: flex-end;
+}
+
+
+
+    .img-container{
+        width: 70vmin;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 30.5%;
+        margin-left: -30%;
+        overflow: hidden;
+        border: 2px solid #fff;
+        border-radius: 4px;
+        box-shadow: 10px 25px 30px rgba(15, 15, 16, 0.3);
+    z-index: -1;
+    }
+    
+.more-images{
+    margin-top: -10px;
+}
+
+main  .main-intro h2{
+    margin-left: 140px;
+    margin-top: 325px;
+    }
+
+
+    main  .main-intro p{
+       margin-left: 00px;
+       text-align: center;
+        }
+
+
+    .more-images p{
+     display: none;
+   } 
+    
+
+}
+
+@media only screen and (max-width:393px){
+        main  .main-intro h2{
+        margin-left: 110px;
+        margin-top: 325px;
+        }
+
+        .img-container{
+            top: 35.5%;
+            
+        z-index: -1;
+        }
+
+        
+}

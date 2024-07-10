@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="gallery.css">
+    
+</head>
+<body>
+     
+    <header class="header-main">
+      <div class="header-main-logo">
+        <img src="images/m-3.png" alt="compamy-logo">
+        <nav class="header-main-nav">
+            <ul>
+                <li><a href="request-estimate.html">Request An Estimate</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+       
+    
+        <div class="off-screen-menu">
+            <ul>
+                <li><a href="request-estimate.html">request an estimate</a></li>
+                <li><a href="gallery.html">gallery</a></li>
+                <li><a href="index.html">home</a></li>
+            </ul>
+          </div>
+          
+          <nav>
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          </nav>
+    
+    
+    
+    
+    </div>
+    <div class="header-img1">        
+        <a href="https://www.instagram.com/ayala.cowboys.concrete/?igsh=MTQzb3dyb3pxZ3ljaQ%3D%3D&utm_source=qr">  
+        <img src="images/insta-logo.png" >
+        </a>
+    </div>
+        <div class="header-img2">
+            <a href="https://www.facebook.com/p/Ayala-Cowboys-100092565806169/">
+            <img src="images/glyph_facebook_facebook_logo_logo_logotype_letter_f_social_media_social_media-512.webp" >
+            </a>   
+        </div>
+    </header>
+
+   <!--the gallery and paragraph-->
+
+     <main>
+       
+       <div class="gallery-para">
+        <h2>Previous Projects</h2>
+       </div>
+       
+        <div class="full-img" id="FullImgBox">
+            <img src="gallery-img/backpic.jpg" id="fullimg">
+            <span onclick="closefullimg()">X</span>
+        </div>
+        <div class="img-gallery">
+            <img src="gallery-img/backpic.jpg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/backpic2.jpg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/photo.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/photo3.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/unnamed-4.jpg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/unnamed-5.jpg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/unnamed-6.jpg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/phone3.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/phone.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/phone2.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/phone4.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/project3-3.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/project3-2.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/project3-1.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/project3-4.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/project4-1.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/project4-2.jpeg" onclick="openfullimg(this.src)">
+            <img src="gallery-img/project4-3.jpeg" onclick="openfullimg(this.src)">
+        </div>
+       
+        <script>
+
+            var FullImgBox = document.getElementById("FullImgBox");
+            var fullimg = document.getElementById("fullimg");
+
+
+            function openfullimg(pic){
+                FullImgBox.style.display = "flex"
+                fullimg.src = pic;
+            }
+            
+            function closefullimg(){
+                FullImgBox.style.display = "none"
+            }
+        </script>
+       
+    </main>
+
+
+    <!--the footer :)-->
+
+<footer class="footer-main">
+    <div class="wrapper-main .footer.main-flex">
+ 
+     <div class="footer-logos">
+         <a href="https://www.instagram.com/ayala.cowboys.concrete/?igsh=MTQzb3dyb3pxZ3ljaQ%3D%3D&utm_source=qr">
+         <img src="images/5279112_camera_instagram_social media_instagram logo_icon.png" class="grami">
+         </a>
+         <a href="https://www.facebook.com/p/Ayala-Cowboys-100092565806169/">
+         <img src="images/9041266_facebook_icon.png" class="faceb">
+         </a>
+     </div>
+     
+     <div class="footer-sitemap">
+         <ul>
+             <li><a href="request-estimate.html">Request an Estimate</a></li>
+             <li><a href="gallery.html">Gallery</a></li>
+             <li><a href="index.html">Home</a></li>
+         </ul>
+ 
+ 
+     
+     </div>
+    </div>
+    <div class="copyright">
+     <p>copyright &copy;2024; Ayala Cowboys Concrete</p>
+    </div>
+ </footer>
+
+ <script src="jss/main.js"></script>
+</body>
+</html>
