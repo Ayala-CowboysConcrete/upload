@@ -158,3 +158,8 @@ main  .main-intro h2{
 
         
 }
+@media only screen and (max-width:390px) {
+    .img-container{
+        top: 20%;
+    }
+}
