@@ -128,3 +128,24 @@
         color: white;
     }
 }
+
+
+@media only screen and (max-width:430px) {
+    .contact-container{
+        margin-left: 50%;
+        margin-top: -2.5%;
+    }
+    .paragraphs h2{
+        text-transform: none;
+        margin-left: -53%;
+        text-align: center;
+        font-size: 3vh;   
+    }
+
+    .paragraphs p{
+        margin-left: -55%;
+        margin-top: 30px;
+        font-size: 2vh;
+        color: white;
+    }
+}
