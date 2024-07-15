@@ -258,6 +258,12 @@
 
 
 @media only screen and (max-width:393px) {
+    
+    .wrapper {
+        width:390px;
+    }
+        
+    
     .contact-container{
         margin-left: 0%;
         margin-top: -2.5%;
