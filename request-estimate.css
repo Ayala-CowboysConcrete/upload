@@ -262,8 +262,12 @@
         width:390px;
     }
         
+    .contact-container{
+        display:none;    
+    }
     
     .contact-container{
+        display:block;
         margin-left: 15%;
         margin-top: -2.5%;
     }
