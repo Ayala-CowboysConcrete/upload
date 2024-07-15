@@ -220,7 +220,7 @@
     }
     .contact-container-2{
         display: block;
-        margin-left: 1%;
+        margin-left: -1000px;
         margin-top: 2%;
     }
 
