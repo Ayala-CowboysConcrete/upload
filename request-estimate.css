@@ -227,6 +227,7 @@
         display: block;
         align-self:center;
         padding-right:1000px;
+        position: fixed;
     }
 
     .contact-input-2 {
