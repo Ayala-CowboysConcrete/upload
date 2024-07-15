@@ -255,13 +255,6 @@
     }
 }
 
-@media only screen and (max-width:410px){
-  .contact-container-2{
-        display: none;
-        
-    }
-}
-
 
 @media only screen and (max-width:393px) {
     
