@@ -9,8 +9,8 @@
     --site-color-01: #192841;
 }
 
-.wrapper-main{
-    width: 1100px;
+.wrapper{
+    width: 100%;
     margin: 0 auto;
 }
 
