@@ -220,7 +220,7 @@
     }
     .contact-container-2{
         display: block;
-        margin-left: -1000px;
+        margin-left: 0px;
         margin-top: 2%;
     }
 
@@ -255,6 +255,12 @@
     }
 }
 
+@media only screen and (max-width:410px){
+  .contact-container-2{
+        display: none;
+        
+    }
+}
 
 
 @media only screen and (max-width:393px) {
