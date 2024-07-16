@@ -164,6 +164,7 @@
         display:none;
     }
     .contact-container-2{
+    display:none;
     height: 80vh;
     display: flex;
     align-items:center;
