@@ -221,13 +221,14 @@
     }
     
     .contact-container{
-        display: none;
+        margin-left: 150%;
+        margin-top: -2.5%;
     }
     .contact-container-2{
         display: block;
         align-self:center;
         padding-right:1000px;
-        position: fixed;
+
     }
 
     .contact-input-2 {
