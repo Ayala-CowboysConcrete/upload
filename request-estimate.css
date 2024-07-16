@@ -223,13 +223,14 @@
     .contact-container{
         margin-left: 150%;
         margin-top: -2.5%;
+        display:none;
     }
     .contact-container-2{
     height: 80vh;
     display: flex;
     align-items:center;
     justify-content: space-evenly;
-    display: none;
+    display: block;
 }
 
 .contact-box-2{
