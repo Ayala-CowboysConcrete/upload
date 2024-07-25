@@ -161,7 +161,7 @@
 
 @media only screen and (max-width:412px){
     .contact-container{
-        margin-left:5%;
+        display:none;
     }
     .contact-container-2 h2{
        margin-top: 44%;
@@ -174,12 +174,6 @@
         display: none;
     }
     
-    .paragraphs h3{
-        color: white;
-        margin-left: -75%;
-        text-align: right;
-        font-size: 6.2vh;
-    }
 
 }
 
