@@ -159,23 +159,6 @@
 }
 
 
-@media only screen and (max-width:412px){
-    .contact-container{
-        display:none;
-    }
-    .contact-container-2 h2{
-       margin-top: 44%;
-       text-align: center;
-       text-transform: none;
-       font-size: 3vh;
-    }
-
-    .paragraphs {
-        display: none;
-    }
-    
-
-}
 
 
 @media only screen and (max-width:393px) {
@@ -213,4 +196,21 @@
         width: 12vh;
         padding:auto;
     }
+}
+
+@media only screen and (min-width:412px){
+    .contact-container{
+        display:none;
+    }
+    .contact-container-2 h2{
+       margin-top: 44%;
+       text-align: center;
+       text-transform: none;
+       font-size: 3vh;
+    }
+
+    .paragraphs {
+        display: none;
+    }
+
 }
