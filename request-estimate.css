@@ -161,7 +161,7 @@
 
 @media only screen and (max-width:412px){
     .contact-container{
-        display: none;
+        margin-left:5%;
     }
     .contact-container-2 h2{
        margin-top: 44%;
