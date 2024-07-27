@@ -170,7 +170,7 @@
     }
     
     .contact-container{
-        display:block;
+        display:flex;
         margin-left: 15%;
         margin-top: -2.5%;
     }
@@ -196,13 +196,6 @@
     }
 }
 
-@media only screen and (max-width:390px){
-    .contact-box-title h2{
-        display: flex;
-        margin-left: 10%;
-        flex-direction: row;
-    }
-}
 
 @media only screen and (min-width:412px) and (max-width:413px){
     .contact-container{
