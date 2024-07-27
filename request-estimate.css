@@ -164,10 +164,6 @@
 
 
 @media only screen and (max-width:393px) {
-    
-    .wrapper {
-        width:390px;
-    }
         
     .contact-container-2{
         display:none;    
