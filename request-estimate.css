@@ -63,11 +63,13 @@
 
 /* mobile version */
 .contact-container-2 {
+    display:none;
     margin-top: -10%;
     font-size: 3.25vh;
 }
 
 .contact-container-2 {
+    display:none;
     margin-bottom: 26%;
 }
 
@@ -210,6 +212,11 @@
     .contact-container{
         display:none;
     }
+
+    .contact-container-2{
+       display:block;
+    }
+    
     .contact-container-2 h2{
        margin-top: 44%;
        text-align: center;
