@@ -145,22 +145,6 @@ main  .main-intro h2{
 }
 
 
-@media only screen and (max-width:412px){
-        main  .main-intro h2{
-        margin-left: 110px;
-        margin-top: 325px;
-        }
-
-        .img-container{
-            top: 0%;
-            
-        z-index: -1;
-        }
-
-        
-}
-
-
 @media only screen and (max-width:393px){
         main  .main-intro h2{
         margin-left: 110px;
@@ -180,3 +164,16 @@ main  .main-intro h2{
         top: 40%;
     }
 }
+
+@media only screen and (min-width:412px) and (max-width:413px){
+    .img-container{
+        top: 33.5%;
+    }
+
+    main  .main-intro h2{
+        margin-left: 30%;
+        margin-top: 325px;
+        }
+}
+
+
