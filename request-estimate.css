@@ -165,6 +165,10 @@
 
 @media only screen and (max-width:393px) {
         
+    .wrapper{
+      width:393px;
+    }
+
     .contact-container-2{
         display:none;    
     }
@@ -196,6 +200,17 @@
     }
 }
 
+@media only screen and (max-width:390px){
+  .wrapper{
+      width:390px;
+    }
+    .contact-container{
+        display:flex;
+        margin-left: 25%;
+        margin-top: -2.5%;
+    }
+    
+}
 
 @media only screen and (min-width:412px) and (max-width:413px){
     .contact-container{
