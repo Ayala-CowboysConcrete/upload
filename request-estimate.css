@@ -176,7 +176,7 @@
     .contact-container{
         display:flex;
         margin-left: 45%;
-        margin-top: -2.5%;
+        margin-top: -1.5%;
     }
     
     .paragraphs {
@@ -188,7 +188,7 @@
     
     .paragraphs h3{
         color: white;
-        margin-left: -75%;
+        margin-left: -65%;
         text-align: right;
         font-size: 6.2vh;
     }
