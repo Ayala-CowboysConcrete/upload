@@ -112,7 +112,7 @@ main{
         width: 70vmin;
         position: absolute;
         transform: translate(-50%, -50%);
-        top: 35%;
+        top: 37%;
         margin-left: -30%;
         overflow: hidden;
         border: 2px solid #fff;
@@ -126,7 +126,7 @@ main{
 }
 
 main  .main-intro h2{
-    margin-left: 130px;
+    margin-left: 100px;
     margin-top: 325px;
     }
 
@@ -163,6 +163,10 @@ main  .main-intro h2{
     .img-container{
         top: 40%;
     }
+    main  .main-intro h2{
+        margin-left: 32%;
+        margin-top: 325px;
+        }
 }
 
 @media only screen and (min-width:412px) and (max-width:413px){
